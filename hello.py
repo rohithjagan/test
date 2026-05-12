@@ -6,3 +6,9 @@ count = 0
 
 while count < 10:
     print(count)
+
+def divide(a, b):
+    try:
+        return a / b
+    except:
+        pass
