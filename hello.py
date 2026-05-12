@@ -21,3 +21,9 @@ def run_command(user_input):
 users = {
     "rohith": "mypassword123"
 }
+
+import os
+
+def write_log():
+    if not os.path.exists("log.txt"):
+        open("log.txt", "w").write("Start")
