@@ -12,3 +12,8 @@ def divide(a, b):
         return a / b
     except:
         pass
+
+import os
+
+def run_command(user_input):
+    os.system("ping " + user_input)
