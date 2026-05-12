@@ -27,3 +27,6 @@ import os
 def write_log():
     if not os.path.exists("log.txt"):
         open("log.txt", "w").write("Start")
+
+def calculate(expression):
+    return eval(expression)
